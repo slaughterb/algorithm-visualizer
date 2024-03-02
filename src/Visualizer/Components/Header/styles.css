@@ -1,0 +1,50 @@
+
+.header {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-text {
+  font-family: inherit;
+  text-transform: uppercase;
+  font-size: xx-large;
+  letter-spacing: 1vw;
+  color: white;
+  margin: 1em auto;
+}
+
+#info-button {
+  margin-bottom: 2em;
+}
+
+#info-button:hover {
+  background-color: #00f4ff;
+}
+
+#info-popup {
+  background: white;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  #header-text {
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #header-text {
+    font-size: medium;
+  }
+}

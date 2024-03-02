@@ -1,0 +1,48 @@
+
+.buttonsContainer {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 70%;
+  margin: 0 2%;
+  padding: 0.8em;
+  border-radius: 50vw;
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+  font-size: medium;
+}
+
+button:hover {
+  font-style: bold;
+  border-width: 0.3vh;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-1:hover {
+  border-color: lightseagreen;
+  color: lightseagreen;
+}
+
+#reset-button {
+  opacity: 0.7;
+  background: #00f4ff;
+}
+
+#reset-button:hover {
+  opacity: 0.9;
+}
+
+button:disabled, .btn-1:disabled, .btn-2:disabled, #reset:disabled {
+  background: gray;
+  color: white;
+  border-width: 0vw;
+  opacity: 1;
+  cursor: not-allowed;
+}

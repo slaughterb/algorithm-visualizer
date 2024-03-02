@@ -1,0 +1,13 @@
+
+.footerContainer img {
+	margin: 1em auto;
+}
+
+#footer-note {
+	background: white;
+	padding: 1.3em;
+	margin: 2.5em auto;
+	width: 80%;
+	border-radius: 4vw;
+}
+
